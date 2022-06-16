@@ -5,7 +5,7 @@ function repeatStringNumTimesWithFor(str, num) {
   // eslint-disable-next-line prefer-const
   let result = '';
   for (let i = 0; i < num; i++){
-    result += str + ' ';
+    result += str;
   }
   return result;
 }
@@ -19,7 +19,7 @@ function repeatStringNumTimesWithWhile(str, num) {
   let i = 0;
   
   while (i < num) {
-    result += str + ' ';
+    result += str;
   i++;
   }
 
